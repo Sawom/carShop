@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-    <!-- navbar -->
+    <!-- navbar start -->
     <section>
       <div class="container mx-auto">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar sticky-top navbar-expand-lg">
           <div class="container-fluid">
             <div>
               <!-- empty -->
-              something
+              <img src="images/logo.png" style="width: 120px;" alt="">
             </div>
             <!-- collapse responsive button -->
             <button
@@ -27,8 +27,7 @@
               data-bs-target="#navbarNavAltMarkup"
               aria-controls="navbarNavAltMarkup"
               aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
+              aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -36,29 +35,55 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav mx-auto">
                 <a class="nav-link active nav-link-ltr" href="index.html"
-                  >Home</a
-                >
+                  >Home</a>
                 <a class="nav-link active nav-link-ltr" href="profile.html"
-                  >Profile</a
-                >
+                  >Profile</a>
                 <a class="nav-link active nav-link-ltr" href="about.html"
-                  >About Us</a
-                >
+                  >About Us</a>
               </div>
-              <!--  -->
+              <!-- login register button -->
               <div class="">
                 <a class="nav-link active nav-link-ltr" href="register.html"
-                  >Register</a
-                >
+                  >Register</a>
                 <a class="nav-link active nav-link-ltr mx-3" href="login.html"
-                  >Login</a
-                >
+                  >Login</a>
               </div>
             </div>
           </div>
         </nav>
       </div>
     </section>
+    <!-- navbar end -->
+
+    <!-- Carousel start -->
+    <section >
+        <div class="container mx-auto">
+            <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="images/slidesCar/car1.png" class="d-block w-100" alt="Slide 1">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="images/slidesCar/car2.png" class="d-block w-100" alt="Slide 2">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="images/slidesCar/car3.png" class="d-block w-100" alt="Slide 3">
+                    </div>
+                </div>
+                <!-- previous button -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <!-- next button -->
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- Carousel end -->
 
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
