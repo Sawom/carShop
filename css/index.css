@@ -29,7 +29,6 @@
 .nav-link::before {
   transition: 500ms;
   height: 5px;
-  content: "";
   position: absolute;
   background-color: #031d44;
 }
@@ -76,4 +75,10 @@
     font-size: 1rem; 
     font-weight: bold;
     border-radius: 10px;
+}
+
+.poster-background{
+  background: black;
+  color: white;
+  padding: 20px;
 }
