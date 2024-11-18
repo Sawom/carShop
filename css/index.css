@@ -50,11 +50,15 @@
   padding: 40px;
 }
 
+.marginBottomSpace{
+  margin-bottom: 40px;
+}
+
 .textRed{
     color: red;
 }
 
-/*  */
+/* poster style */
 .position-relative {
     position: relative;
 }
