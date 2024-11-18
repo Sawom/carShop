@@ -6,7 +6,6 @@
 .navbar-toggler {
   border: none;
 }
-
 /* remove shadow and border end */
 
 /* navbar animation */
@@ -29,6 +28,7 @@
 .nav-link::before {
   transition: 500ms;
   height: 5px;
+  content: "";
   position: absolute;
   background-color: #031d44;
 }
@@ -50,41 +50,41 @@
   padding: 40px;
 }
 
-.marginBottomSpace{
+.marginBottomSpace {
   margin-bottom: 40px;
 }
 
-.textRed{
+.textRed {
   color: red;
 }
 
 /* poster style */
 .position-relative {
-    position: relative;
+  position: relative;
 }
 
 .overlay-text {
-    position: absolute;
-    top: 10%; 
-    left: 20%; 
-    transform: translate(-50%, -50%); 
-    background-color: rgba(0, 0, 0, 0.8); 
-    color: white; 
-    padding: 10px 10px; 
-    text-align: center; 
-    font-size: 1rem; 
-    font-weight: bold;
-    border-radius: 10px;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
 }
 
-.poster-background{
+.poster-background {
   background: black;
   color: white;
   padding: 30px;
 }
 
 /* footer */
-.footerLinks{
+.footerLinks {
   text-decoration: none;
   color: white;
 }
