@@ -80,5 +80,11 @@
 .poster-background{
   background: black;
   color: white;
-  padding: 20px;
+  padding: 30px;
+}
+
+/* footer */
+.footerLinks{
+  text-decoration: none;
+  color: white;
 }
