@@ -1,10 +1,10 @@
 /* remove shadow and border */
 .navbar-toggler:focus {
-    box-shadow: none;
+  box-shadow: none;
 }
 
-.navbar-toggler{
-    border: none;
+.navbar-toggler {
+  border: none;
 }
 /* remove shadow and border end */
 
@@ -13,7 +13,7 @@
   font-weight: bold;
   font-size: 16px;
   text-decoration: none;
-  color: #031D44;
+  color: #031d44;
   padding: 15px 0px;
   margin: 0px 10px;
   display: inline-block;
@@ -30,7 +30,7 @@
   height: 5px;
   content: "";
   position: absolute;
-  background-color: #031D44;
+  background-color: #031d44;
 }
 
 .nav-link-ltr::before {
@@ -46,5 +46,10 @@
 /* slide background */
 .dark-gradient-background {
   background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
-  color: white; /* Optional: text color */
+  color: white;
+  padding: 40px;
+}
+
+.textRed{
+    color: red;
 }
