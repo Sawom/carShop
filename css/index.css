@@ -83,6 +83,15 @@
   padding: 30px;
 }
 
+/* card effect */
+.cardStyle{
+    transition: all 0.3s;
+}
+
+.cardStyle:hover{
+    transform: scale(1.05);
+}
+
 /* footer */
 .footerLinks {
   text-decoration: none;
