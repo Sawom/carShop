@@ -84,12 +84,12 @@
 }
 
 /* card effect */
-.cardStyle{
-    transition: all 0.3s;
+.cardStyle {
+  transition: all 0.3s;
 }
 
-.cardStyle:hover{
-    transform: scale(1.05);
+.cardStyle:hover {
+  transform: scale(1.04);
 }
 
 /* footer */
