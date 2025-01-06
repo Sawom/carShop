@@ -67,9 +67,9 @@
     <!-- shop car -->
     <section class="container mx-auto" style="margin-top: 70px">
       <!-- search bar & dropdown -->
-      <section class="row row-cols-2 row-cols-md-3 row-cols-lg-3 g-4" >
+      <section class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-3" >
         <!-- brand dropdown -->
-        <div class="dropdown ">
+        <div class="dropdown col">
           <button
             class="btn border dropdown-toggle w-100"
             type="button"
@@ -90,7 +90,7 @@
         </div>
 
         <!-- model -->
-        <div class="dropdown">
+        <div class="dropdown col">
           <button
             class="btn border dropdown-toggle w-100"
             type="button"
@@ -112,12 +112,12 @@
         </div>
 
         <!-- price range -->
-        <div class="row g-3 ">
+        <div class="row g-2 ">
           <div class="col">
             <!-- from -->
             <input
               type="text"
-              class="form-control"
+              class="form-control w-100"
               placeholder="From"
               aria-label="First name"
             />
@@ -126,15 +126,16 @@
           <div class="col">
             <input
               type="text"
-              class="form-control"
+              class="form-control w-100"
               placeholder="To"
               aria-label="Last name"
             />
           </div>
           <div class="col">
-            <button type="button" class="btn btn-danger">Search</button>
+            <button type="button" class="btn btn-danger w-100">Search</button>
           </div>
         </div>
+
       </section>
 
       <h2 class="text-center mt-5" style="margin-bottom: 30px">
